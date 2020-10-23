@@ -18,7 +18,7 @@ const Chat = ({ location }) => {
   const [message, setMessage] = useState('');
   const [messages, setMessages] = useState([]);
   const [users, setUsers] = useState([]);
-  // const ENDPOINT = 'localhost:5000'; -- for local development mode
+  // const ENDPOINT = 'localhost:5000'; -- for local development mode 
   const ENDPOINT = 'https://chat-server-web-socket.herokuapp.com/'; // for production mode with my newly pushed heroku server
 
   // First useEffect hook: for USERS JOINING and DISCONNECTING
